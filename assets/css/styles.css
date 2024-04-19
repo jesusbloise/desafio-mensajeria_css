@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+  }
+
+  nav {
+    min-width: 300px;
+    width: 25%;
+    height: 100vh
+  }
+
+  /*pagina*/
+  section{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section img {
+    height: 300px;
+  }
+ section h1{
+    font-size: 45px;
+ }
+  
+  img {
+    height: 40px;
+  }
+
+   /*boton*/
+  .nuevo-chat-div {
+    justify-content: center;
+    padding: 20px;
+  }
+
+ 
+  .nuevo-chat-div .btn {
+    padding: 10px 30px;
+  }
+  
+  .btn {
+    border: 0;
+    padding: 0.8em 0;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: blueviolet;
+    color: white;
+  }
+  
+  /* chat */
+  h5, p {
+    margin: 0px;
+  }
+  
+  .user-card {
+    display: flex;
+    border-top: solid 1px grey;
+    border-right: solid 1px grey;
+    padding: 20px;
+  }
+  
+  
+  .user-card img{
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  
+  .user-card-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .user-card-principal .left {
+    display: flex;
+  }
+  
